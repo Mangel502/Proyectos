@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\",
+  "WorkspaceRootPath": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|solutionrelative:Tarea c\u002B\u002B\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{37418D4C-BDDA-47AF-9E95-7CA09BD607E9}|Numeros Primos\\Numeros Primos.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37418D4C-BDDA-47AF-9E95-7CA09BD607E9}|Numeros Primos\\Numeros Primos.vcxproj|solutionrelative:Numeros Primos\\Numeros Primos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\Calificaciones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|solutionrelative:Tarea c\u002B\u002B\\Calificaciones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|solutionrelative:Registro de Tienda\\Registro Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calificaciones.cpp",
+              "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\Calificaciones.cpp",
+              "RelativeDocumentMoniker": "Tarea c\u002B\u002B\\Calificaciones.cpp",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\Calificaciones.cpp",
+              "RelativeToolTip": "Tarea c\u002B\u002B\\Calificaciones.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T05:04:52.864Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileName.cpp",
-              "DocumentMoniker": "C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp",
-              "RelativeDocumentMoniker": "Tarea c\u002B\u002B\\FileName.cpp",
-              "ToolTip": "C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp",
-              "RelativeToolTip": "Tarea c\u002B\u002B\\FileName.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Title": "Numeros Primos.cpp",
+              "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp",
+              "RelativeDocumentMoniker": "Numeros Primos\\Numeros Primos.cpp",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp",
+              "RelativeToolTip": "Numeros Primos\\Numeros Primos.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-06T05:04:52.864Z",
+              "WhenOpened": "2025-03-06T05:36:43.244Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registro Ventas.cpp",
+              "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp",
+              "RelativeDocumentMoniker": "Registro de Tienda\\Registro Ventas.cpp",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp",
+              "RelativeToolTip": "Registro de Tienda\\Registro Ventas.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T05:22:56.41Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
