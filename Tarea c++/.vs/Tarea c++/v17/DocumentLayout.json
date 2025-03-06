@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\",
+  "WorkspaceRootPath": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|solutionrelative:Registro de Tienda\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|solutionrelative:Tarea c\u002B\u002B\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,20 +18,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FileName.cpp",
-              "DocumentMoniker": "C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\FileName.cpp",
+              "RelativeDocumentMoniker": "Registro de Tienda\\FileName.cpp",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\FileName.cpp",
+              "RelativeToolTip": "Registro de Tienda\\FileName.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T05:22:56.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp",
               "RelativeDocumentMoniker": "Tarea c\u002B\u002B\\FileName.cpp",
-              "ToolTip": "C:\\Users\\mikyg\\OneDrive\\Documentos\\REpoSItorio\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\FileName.cpp",
               "RelativeToolTip": "Tarea c\u002B\u002B\\FileName.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-06T05:04:52.864Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
