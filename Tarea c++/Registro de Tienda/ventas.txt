@@ -1,0 +1,5 @@
+Lunes	12		100		1200
+Lunes	12		100		1200
+Lunes	13		150		1950
+Martes	12		120		1440
+Miercoles	1		12		12

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|solutionrelative:Registro de Tienda\\Registro Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37418D4C-BDDA-47AF-9E95-7CA09BD607E9}|Numeros Primos\\Numeros Primos.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{37418D4C-BDDA-47AF-9E95-7CA09BD607E9}|Numeros Primos\\Numeros Primos.vcxproj|solutionrelative:Numeros Primos\\Numeros Primos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\Calificaciones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E98B0168-7759-45AE-A480-C71DDE5B04CF}|Tarea c\u002B\u002B\\Tarea c\u002B\u002B.vcxproj|solutionrelative:Tarea c\u002B\u002B\\Calificaciones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4B87E9F9-5DA0-4785-9B02-1150F60CF4F6}|Registro de Tienda\\Registro de Tienda.vcxproj|solutionrelative:Registro de Tienda\\Registro Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Calificaciones.cpp",
               "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Tarea c\u002B\u002B\\Calificaciones.cpp",
               "RelativeDocumentMoniker": "Tarea c\u002B\u002B\\Calificaciones.cpp",
@@ -38,33 +38,33 @@
               "RelativeToolTip": "Tarea c\u002B\u002B\\Calificaciones.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-06T05:04:52.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T05:04:52.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Numeros Primos.cpp",
               "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp",
               "RelativeDocumentMoniker": "Numeros Primos\\Numeros Primos.cpp",
-              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp*",
-              "RelativeToolTip": "Numeros Primos\\Numeros Primos.cpp*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Numeros Primos\\Numeros Primos.cpp",
+              "RelativeToolTip": "Numeros Primos\\Numeros Primos.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-06T06:50:05.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Registro Ventas.cpp",
               "DocumentMoniker": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp",
               "RelativeDocumentMoniker": "Registro de Tienda\\Registro Ventas.cpp",
-              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp",
-              "RelativeToolTip": "Registro de Tienda\\Registro Ventas.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CompuFire\\Documents\\Repositorio Git\\Proyectos\\Tarea c\u002B\u002B\\Registro de Tienda\\Registro Ventas.cpp*",
+              "RelativeToolTip": "Registro de Tienda\\Registro Ventas.cpp*",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-06T05:22:56.41Z"
+              "WhenOpened": "2025-03-06T05:22:56.41Z",
+              "EditorCaption": ""
             }
           ]
         },
