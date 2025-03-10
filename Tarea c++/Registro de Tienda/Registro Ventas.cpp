@@ -3,42 +3,47 @@
 #include <string>
 
 using namespace std;
+//Se declaran las funciones que tendra el programa
 void Registrar();
 void VerVentas();
 void menu();
 
+//Se declaran las vaiables para el programa
 string dia, diaMayor, diaMenor;
 int cantidad, precioU;
 float MayorVenta, MenorVenta, total, Gtotal;
 
+//Se hace el llamado al menu
 int main() {
 	system("cls");
 	menu();
 	return 0;
 }
 
+//Funciones para el munu
 void menu() {
 	int opcion = 0;
 	do {
 		system("cls");
 		cout << "\tRegistro de Ventas" << endl;
+		//Se crean las opciones para el menu
 		cout << "1. Registrar Venta" << endl;
 		cout << "2. Ver Registro" << endl;
 		cout << "3. Salir" << endl;
 		cout << "Que desea hcer?" << endl;
 		cin >> opcion;
-
+		//Se crea una verificacion para que el usuario solo coloque las opciones validas
 		if (cin.fail() || opcion < 1 || opcion > 3) {
 			cin.clear();
-			cin.ignore(10000, '\n');
+			cin.ignore(10000, '\n');// Ignora la entrada no válida
 
 		}
 		else {
 			switch (opcion) {
 			case 1:
-				system("cls");
+				system("cls");//limpia la pantalla
 				Registrar();
-				system("PAUSE");
+				system("PAUSE");//espera la respuesta del usuario
 				break;
 
 			case 2:
@@ -48,20 +53,23 @@ void menu() {
 				break;
 
 			case 3:
-				exit(0);
+				exit(0);//Salir del programa
 			}
 		}
 	} while (opcion != 3);
 }
 
+//Funcion para la opcion "Registrar"
 void Registrar() {
-	ofstream escritura;
-	ifstream consulta;
+	ofstream escritura;//Se crea una variable en modo de escritura
+	ifstream consulta;//Se crea una variable en modo de lectura
 	bool repetido = false;
 
+	//Se crea un archivo de texto en modo de lectura y escritura
 	escritura.open("ventas.txt", ios::out | ios::app);
 	consulta.open("ventas.txt", ios::in);
 
+	//Verifica si el archivo se abrio correctamente
 	if (escritura.is_open() && consulta.is_open()) {
 		cout << "\tIngrese los datos" << endl;
 
@@ -78,24 +86,25 @@ void Registrar() {
 		escritura << dia << "\t" << cantidad << "\t\t" << precioU << "\t\t" << total << endl;
 		cout << "Agregado Correctamente" << endl;
 	}
-	else {
+	else {//Si el archivo no se abre saldra un error
 		cout << "Error: El archivo no se pudo abrir o no se ha sido creado." << endl;
 	}
+	//Se cierra el archivo de texto
 	escritura.close();
 	consulta.close();
 }
 
 void VerVentas() {
-	ifstream lectura("ventas.txt", ios::in);
+	ifstream lectura("ventas.txt", ios::in);//Se crea una variable en modo de lectura
 
-	if (lectura.is_open()) {
+	if (lectura.is_open()) {//Si se abre se muetsra un menu y los datos
 		cout << "\t\t\t*Datos de Ventas*" << endl;
 		cout << "Dia\tCantidad\t\tPrecio U\tTotal" << endl;
 		cout << "================================================================" << endl;
 
-		// Variables para almacenar la venta ma?s alta y la ma?s baja
-		float MayorVenta = 0;
-		float MenorVenta = 9999999;
+		// Variables para almacenar la venta mas alta y la mas baja
+		float MayorVenta = 0; // Se inicializa con 0 para que cualquier venta real lo supere y se actualice correctamente
+		float MenorVenta = 9999999; // Se inicializa con un número muy alto para que cualquier venta real sea menor y lo reemplace
 
 		while (lectura >> dia >> cantidad >> precioU >> total) {
 			cout << dia << "\t\t" << cantidad << "\t\tQ." << precioU << "\t\tQ." << total << endl;
@@ -115,18 +124,18 @@ void VerVentas() {
 
 		cout << "=================================================================" << endl;
 
-		// Mostramos la venta ma?s alta y la ma?s baja
+		// Mostramos la venta mas alta y la mas baja
 		if (MayorVenta > 0) { // Verificamos si hubo al menos una venta
 			cout << "La venta mas alta fue de Q." << MayorVenta << " el dia " << diaMayor << endl;
 			cout << "La venta mas baja fue de Q." << MenorVenta << " el dia " << diaMenor << endl;
 		}
-		else {
-			cout << "No hay ventas registradas au?n." << endl;
+		else {//Si no hay ventas saldra un error
+			cout << "No hay ventas registradas aun." << endl;
 		}
 
 	}
-	else {
+	else {//Si el archivo no se abre saldra un error
 		cout << "Error: El Archivo no se pudo abrir o no ha sido creado" << endl;
 	}
-	lectura.close();
+	lectura.close();//Se cierra el archivo de texto
 }
