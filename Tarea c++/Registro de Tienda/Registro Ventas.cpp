@@ -94,6 +94,7 @@ void Registrar() {
 	consulta.close();
 }
 
+//Funcion para la opcion "Ver Ventas"
 void VerVentas() {
 	ifstream lectura("ventas.txt", ios::in);//Se crea una variable en modo de lectura
 
