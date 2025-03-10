@@ -7,7 +7,7 @@ void Registrar();
 void VerVentas();
 void menu();
 
-string dia;
+string dia, diaMayor, diaMenor;
 int cantidad, precioU;
 float MayorVenta, MenorVenta, total, Gtotal;
 
@@ -69,7 +69,7 @@ void Registrar() {
 		cin >> dia;
 		cout << "Ingrese la cantidad de ventas: ";
 		cin >> cantidad;
-		cout << "Ingrese el monto de las ventas: Q.";
+		cout << "Ingrese el monto de cada unidad: Q.";
 		cin >> precioU;
 
 		total = cantidad * precioU;
@@ -86,20 +86,44 @@ void Registrar() {
 }
 
 void VerVentas() {
-	ifstream lectura;
-	lectura.open("ventas.txt", ios::in);
+	ifstream lectura("ventas.txt", ios::in);
 
 	if (lectura.is_open()) {
-		cout << "\t\t\t**Datos de Ventas**" << endl;
+		cout << "\t\t\t*Datos de Ventas*" << endl;
 		cout << "Dia\tCantidad\t\tPrecio U\tTotal" << endl;
 		cout << "================================================================" << endl;
 
-		while (!lectura.eof()) {
-			lectura >> dia >> cantidad >> precioU >> total;
+		// Variables para almacenar la venta ma?s alta y la ma?s baja
+		float MayorVenta = 0;
+		float MenorVenta = 9999999;
+
+		while (lectura >> dia >> cantidad >> precioU >> total) {
 			cout << dia << "\t\t" << cantidad << "\t\tQ." << precioU << "\t\tQ." << total << endl;
 
+			// Verificamos si esta venta es la mayor
+			if (total > MayorVenta) {
+				MayorVenta = total;
+				diaMayor = dia;
+			}
+
+			// Verificamos si esta venta es la menor
+			if (total < MenorVenta) {
+				MenorVenta = total;
+				diaMenor = dia;
+			}
 		}
+
 		cout << "=================================================================" << endl;
+
+		// Mostramos la venta ma?s alta y la ma?s baja
+		if (MayorVenta > 0) { // Verificamos si hubo al menos una venta
+			cout << "La venta mas alta fue de Q." << MayorVenta << " el dia " << diaMayor << endl;
+			cout << "La venta mas baja fue de Q." << MenorVenta << " el dia " << diaMenor << endl;
+		}
+		else {
+			cout << "No hay ventas registradas au?n." << endl;
+		}
+
 	}
 	else {
 		cout << "Error: El Archivo no se pudo abrir o no ha sido creado" << endl;
