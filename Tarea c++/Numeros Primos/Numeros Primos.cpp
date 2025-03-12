@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //para declarar la entrada y salida
 
 using namespace std;
 int main() {
@@ -34,15 +34,15 @@ int main() {
             }
         }
         // Se muestra el resultado en pantalla
-        if (primo) {
-            cout << "El numero " << numero << " es Primo" << endl;
+        if (primo) {  //para saber si es verdad
+            cout << "El numero " << numero << " es Primo" << endl; //imprime que el numero si es primo
         }
-        else {
-            cout << "El numero " << numero << " no es Primo" << endl;
+        else { //para saber si es falso
+            cout << "El numero " << numero << " no es Primo" << endl; //imprime que el numero no es primo
         }
     }
     // Se libera la memoria asignada dinámicamente
     delete[] numeros;
 
-    return 0;
+    return 0; //indica que el programa termina
 }

@@ -1,10 +1,10 @@
-#include <iostream>
-#include <vector>
+#include <iostream> //para declarar la entrada y salida
+#include <vector>  //sirve para trabajar con arreglos dinamicos
 
 using namespace std;
 
 
-int main() {
+void calificaciones() {
 	int n, suma = 0; // declaramos variables de tipo entero para guardar la seleccion del usuario
 	float promedio; // declaramos una variable de tipo float para poder calcular el promedio
 
@@ -40,6 +40,27 @@ int main() {
 
 	promedio = static_cast<float>(suma) / n; // en la variable promedio guardaremos el promedio de las notas que consiste en convertir la suma total de las notas en float y asi divirlas por el numero de estudiantes
 	cout << "El promedio es igual a :" << promedio; // para ultimo mostrar el promedio de todas las notas.
+	system("pause");
+}
 
-	return 0; // acabamos el programa
+int main() {
+	int opcion;
+	do {
+		cout << "\n_________Menu Principal_________\n";
+		cout << "1.___Ingresa las Calificaciones___\n";
+		cout << "2._______Salir del programa_______\n";
+		cout << "Seleccione su opcion:";
+		cin >> opcion;
+
+		switch (opcion) {
+		case 1: calificaciones();
+				break;
+		case 2: cout << "Cerrando Programa\n";
+			break;
+		default: cout << "No funciono\n";
+
+
+		}
+	} while (opcion != 2);
+	return 0;
 }

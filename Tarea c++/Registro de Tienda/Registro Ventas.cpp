@@ -1,11 +1,12 @@
-#include <iostream>
-#include <fstream>
-#include <string>
+#include <iostream> //para la entrada y salida
+#include <fstream>  //para trabajar con archivos
+#include <string> //para trabajar con cadenas
 
-using namespace std;
+using namespace std; //usa un nombre estandar
+
 //Se declaran las funciones que tendra el programa
-void Registrar();
-void VerVentas();
+void Registrar(); //declarar las funciones registrar
+void VerVentas(); //declarar las funcionas verventas
 void menu();
 
 //Se declaran las vaiables para el programa
