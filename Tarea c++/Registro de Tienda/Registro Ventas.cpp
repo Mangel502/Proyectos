@@ -10,28 +10,28 @@ void VerVentas(); //declarar las funcionas verventas
 void menu();
 
 //Se declaran las vaiables para el programa
-string dia, diaMayor, diaMenor;
-int cantidad, precioU;
-float MayorVenta, MenorVenta, total, Gtotal;
+string dia, diaMayor, diaMenor; //declara variebles de cadena
+int cantidad, precioU; //declara variebles enteras
+float MayorVenta, MenorVenta, total, Gtotal; //declara variebles de puntos flotantes
 
 //Se hace el llamado al menu
-int main() {
-	system("cls");
-	menu();
-	return 0;
+int main() { //funcion principal de programa
+	system("cls"); //limpia la pantalla consola
+	menu(); //llama a la funcion de menu
+	return 0; //indica que termino correcto
 }
 
 //Funciones para el munu
-void menu() {
-	int opcion = 0;
+void menu() { //Definicion de la funcion menu
+	int opcion = 0; //declara una variebles  para almacenar la opcion de menu
 	do {
-		system("cls");
-		cout << "\tRegistro de Ventas" << endl;
+		system("cls"); //limpia la pantalla dr consola
+		cout << "\tRegistro de Ventas" << endl; 
 		//Se crean las opciones para el menu
-		cout << "1. Registrar Venta" << endl;
-		cout << "2. Ver Registro" << endl;
-		cout << "3. Salir" << endl;
-		cout << "Que desea hcer?" << endl;
+		cout << "1. Registrar Venta" << endl;//imprime la opcion 1
+		cout << "2. Ver Registro" << endl; //imrpime la opcion 2
+		cout << "3. Salir" << endl; //imprimo la opcion 3
+		cout << "Que desea hcer?" << endl; //pide al usuario selecionar una opcion
 		cin >> opcion;
 		//Se crea una verificacion para que el usuario solo coloque las opciones validas
 		if (cin.fail() || opcion < 1 || opcion > 3) {

@@ -43,24 +43,24 @@ void calificaciones() {
 	system("pause");
 }
 
-int main() {
-	int opcion;
-	do {
-		cout << "\n_________Menu Principal_________\n";
-		cout << "1.___Ingresa las Calificaciones___\n";
-		cout << "2._______Salir del programa_______\n";
-		cout << "Seleccione su opcion:";
-		cin >> opcion;
+int main() { //funcion principal del programa
+	int opcion; //para declarar la variable 
+	do { //un bucle do/while  para mostrar la repeticion
+		cout << "\n_________Menu Principal_________\n"; //el titulo del menu
+		cout << "1.___Ingresa las Calificaciones___\n"; //Imprime la opcion1
+		cout << "2._______Salir del programa_______\n"; //Imprime la opcion 2
+		cout << "Seleccione su opcion:"; //para seleccionar una opcion
+		cin >> opcion; //lee la opcion del usuario
 
-		switch (opcion) {
-		case 1: calificaciones();
-				break;
+		switch (opcion) { // para manejar la estructura del menu
+		case 1: calificaciones(); 
+				break; //si elije la 1 va a la funcion de calificaciones
 		case 2: cout << "Cerrando Programa\n";
-			break;
-		default: cout << "No funciono\n";
+			break; // si elije 2 imprime una salida para salir del bucle
+		default: cout << "No funciono\n"; //si ninguno es correcto parca error
 
 
 		}
-	} while (opcion != 2);
-	return 0;
+	} while (opcion != 2); //el bucle se repite
+	return 0; //el programa termine bien
 }
